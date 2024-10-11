@@ -1,0 +1,237 @@
+Analysis of performance of tree trained on train_full:
+
+Overall Metrics:
+  Accuracy: 0.8650
+  Precision (Macro): 0.8649
+  Recall (Macro): 0.8607
+  F1 Score (Macro): 0.8603
+  Precision (Weighted): 0.8666
+  Recall (Weighted): 0.8650
+  F1 Score (Weighted): 0.8637
+
+Confusion Matrix:
+[[33,  0,  0,  1,  0,  0],
+ [ 1, 33,  2,  1,  0,  0],
+ [ 0,  0, 24,  0,  1,  1],
+ [ 1,  1,  2, 19,  1,  3],
+ [ 0,  2,  0,  1, 27,  4],
+ [ 0,  0,  2,  0,  3, 37]]
+
+Class A Metrics:
+  True Positives: 33
+  False Positives: 2
+  False Negatives: 1
+  Accuracy: 0.9850
+  Precision: 0.9429
+  Recall: 0.9706
+  F1 Score: 0.9565
+
+
+Class C Metrics:
+  True Positives: 33
+  False Positives: 3
+  False Negatives: 4
+  Accuracy: 0.9650
+  Precision: 0.9167
+  Recall: 0.8919
+  F1 Score: 0.9041
+
+
+Class E Metrics:
+  True Positives: 24
+  False Positives: 6
+  False Negatives: 2
+  Accuracy: 0.9600
+  Precision: 0.8000
+  Recall: 0.9231
+  F1 Score: 0.8571
+
+
+Class G Metrics:
+  True Positives: 19
+  False Positives: 3
+  False Negatives: 8
+  Accuracy: 0.9450
+  Precision: 0.8636
+  Recall: 0.7037
+  F1 Score: 0.7755
+
+
+Class O Metrics:
+  True Positives: 27
+  False Positives: 5
+  False Negatives: 7
+  Accuracy: 0.9400
+  Precision: 0.8438
+  Recall: 0.7941
+  F1 Score: 0.8182
+
+
+Class Q Metrics:
+  True Positives: 37
+  False Positives: 8
+  False Negatives: 5
+  Accuracy: 0.9350
+  Precision: 0.8222
+  Recall: 0.8810
+  F1 Score: 0.8506
+
+----------------------------------------------------------------------------------------------------
+
+Analysis of performance of tree trained on train_sub:
+
+Overall Metrics:
+  Accuracy: 0.7300
+  Precision (Macro): 0.7202
+  Recall (Macro): 0.7141
+  F1 Score (Macro): 0.6988
+  Precision (Weighted): 0.7252
+  Recall (Weighted): 0.7300
+  F1 Score (Weighted): 0.7118
+
+Confusion Matrix:
+[[27,  0,  4,  1,  0,  2],
+ [ 0, 37,  0,  0,  0,  0],
+ [ 0,  2, 22,  1,  0,  1],
+ [ 1,  5,  5,  7,  4,  5],
+ [ 1,  4,  0,  2, 22,  5],
+ [ 2,  1,  2,  0,  6, 31]]
+
+Class A Metrics:
+  True Positives: 27
+  False Positives: 4
+  False Negatives: 7
+  Accuracy: 0.9450
+  Precision: 0.8710
+  Recall: 0.7941
+  F1 Score: 0.8308
+
+
+Class C Metrics:
+  True Positives: 37
+  False Positives: 12
+  False Negatives: 0
+  Accuracy: 0.9400
+  Precision: 0.7551
+  Recall: 1.0000
+  F1 Score: 0.8605
+
+
+Class E Metrics:
+  True Positives: 22
+  False Positives: 11
+  False Negatives: 4
+  Accuracy: 0.9250
+  Precision: 0.6667
+  Recall: 0.8462
+  F1 Score: 0.7458
+
+
+Class G Metrics:
+  True Positives: 7
+  False Positives: 4
+  False Negatives: 20
+  Accuracy: 0.8800
+  Precision: 0.6364
+  Recall: 0.2593
+  F1 Score: 0.3684
+
+
+Class O Metrics:
+  True Positives: 22
+  False Positives: 10
+  False Negatives: 12
+  Accuracy: 0.8900
+  Precision: 0.6875
+  Recall: 0.6471
+  F1 Score: 0.6667
+
+
+Class Q Metrics:
+  True Positives: 31
+  False Positives: 13
+  False Negatives: 11
+  Accuracy: 0.8800
+  Precision: 0.7045
+  Recall: 0.7381
+  F1 Score: 0.7209
+
+----------------------------------------------------------------------------------------------------
+
+Analysis of performance of tree trained on train_noisy:
+
+Overall Metrics:
+  Accuracy: 0.7950
+  Precision (Macro): 0.7991
+  Recall (Macro): 0.7981
+  F1 Score (Macro): 0.7959
+  Precision (Weighted): 0.7990
+  Recall (Weighted): 0.7950
+  F1 Score (Weighted): 0.7946
+
+Confusion Matrix:
+[[30,  0,  0,  1,  0,  3],
+ [ 1, 31,  1,  3,  1,  0],
+ [ 0,  1, 25,  0,  0,  0],
+ [ 0,  1,  1, 16,  1,  8],
+ [ 0,  0,  1,  1, 28,  4],
+ [ 1,  0,  3,  2,  7, 29]]
+
+Class A Metrics:
+  True Positives: 30
+  False Positives: 2
+  False Negatives: 4
+  Accuracy: 0.9700
+  Precision: 0.9375
+  Recall: 0.8824
+  F1 Score: 0.9091
+
+
+Class C Metrics:
+  True Positives: 31
+  False Positives: 2
+  False Negatives: 6
+  Accuracy: 0.9600
+  Precision: 0.9394
+  Recall: 0.8378
+  F1 Score: 0.8857
+
+
+Class E Metrics:
+  True Positives: 25
+  False Positives: 6
+  False Negatives: 1
+  Accuracy: 0.9650
+  Precision: 0.8065
+  Recall: 0.9615
+  F1 Score: 0.8772
+
+
+Class G Metrics:
+  True Positives: 16
+  False Positives: 7
+  False Negatives: 11
+  Accuracy: 0.9100
+  Precision: 0.6957
+  Recall: 0.5926
+  F1 Score: 0.6400
+
+
+Class O Metrics:
+  True Positives: 28
+  False Positives: 9
+  False Negatives: 6
+  Accuracy: 0.9250
+  Precision: 0.7568
+  Recall: 0.8235
+  F1 Score: 0.7887
+
+
+Class Q Metrics:
+  True Positives: 29
+  False Positives: 15
+  False Negatives: 13
+  Accuracy: 0.8600
+  Precision: 0.6591
+  Recall: 0.6905
+  F1 Score: 0.6744

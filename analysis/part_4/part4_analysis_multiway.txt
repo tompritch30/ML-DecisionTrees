@@ -1,0 +1,139 @@
+Training new models using multiway tree...
+
+------------------------------------------------------------------------------------------------------------------------------------
+
+Processing train_full...
+[0, 1, 2, 3]
+[0, 1, 2, 3]
+
+Confusion Matrix:
+
+ [[27  0  0  1  5  1]
+ [ 0 23  1  9  4  0]
+ [ 0  0 15  1 10  0]
+ [ 1  4  1 11  5  5]
+ [ 0  0  1  3 24  6]
+ [ 0  0  1  2 29 10]]
+
+
+Accuracy: 0.55
+
+
+Macro-average metrics:
+Macro-averaged Recall: 0.56
+Macro-averaged Precision: 0.63
+Macro-averaged F1 Score: 0.57
+
+
+Per class metrics:
+Recall per class: [0.79411765 0.62162162 0.57692308 0.40740741 0.70588235 0.23809524]
+Precision per class: [0.96428571 0.85185185 0.78947368 0.40740741 0.31168831 0.45454545]
+F1 Score per class: [0.87096774 0.71875    0.66666667 0.40740741 0.43243243 0.3125    ]
+
+
+Detailed Classification Report:
+
+               precision    recall  f1-score   support
+
+           A       0.96      0.79      0.87        34
+           C       0.85      0.62      0.72        37
+           E       0.79      0.58      0.67        26
+           G       0.41      0.41      0.41        27
+           O       0.31      0.71      0.43        34
+           Q       0.45      0.24      0.31        42
+
+    accuracy                           0.55       200
+   macro avg       0.63      0.56      0.57       200
+weighted avg       0.63      0.55      0.56       200
+
+------------------------------------------------------------------------------------------------------------------------------------
+
+Processing train_sub...
+[0, 1, 2, 3]
+[0, 1, 2, 3]
+
+Confusion Matrix:
+
+ [[25  1  0  0  6  2]
+ [ 0 31  2  0  4  0]
+ [ 0  1 14  0 11  0]
+ [ 1 13  1  0  7  5]
+ [ 0  0  4  0 27  3]
+ [ 0  2  0  0 31  9]]
+
+
+Accuracy: 0.53
+
+
+Macro-average metrics:
+Macro-averaged Recall: 0.52
+Macro-averaged Precision: 0.51
+Macro-averaged F1 Score: 0.48
+
+
+Per class metrics:
+Recall per class: [0.73529412 0.83783784 0.53846154 0.         0.79411765 0.21428571]
+Precision per class: [0.96153846 0.64583333 0.66666667 0.         0.31395349 0.47368421]
+F1 Score per class: [0.83333333 0.72941176 0.59574468 0.         0.45       0.29508197]
+
+
+Detailed Classification Report:
+
+               precision    recall  f1-score   support
+
+           A       0.96      0.74      0.83        34
+           C       0.65      0.84      0.73        37
+           E       0.67      0.54      0.60        26
+           G       0.00      0.00      0.00        27
+           O       0.31      0.79      0.45        34
+           Q       0.47      0.21      0.30        42
+
+    accuracy                           0.53       200
+   macro avg       0.51      0.52      0.48       200
+weighted avg       0.52      0.53      0.49       200
+
+------------------------------------------------------------------------------------------------------------------------------------
+
+Processing train_noisy...
+[0, 1, 2, 3]
+[0, 1, 2, 3]
+
+Confusion Matrix:
+
+ [[27  0  0  1  5  1]
+ [ 0 23  1  9  4  0]
+ [ 0  0 15  1 10  0]
+ [ 1  4  1 11  5  5]
+ [ 0  0  1  3 24  6]
+ [ 0  0  1  2 30  9]]
+
+
+Accuracy: 0.55
+
+
+Macro-average metrics:
+Macro-averaged Recall: 0.55
+Macro-averaged Precision: 0.62
+Macro-averaged F1 Score: 0.56
+
+
+Per class metrics:
+Recall per class: [0.79411765 0.62162162 0.57692308 0.40740741 0.70588235 0.21428571]
+Precision per class: [0.96428571 0.85185185 0.78947368 0.40740741 0.30769231 0.42857143]
+F1 Score per class: [0.87096774 0.71875    0.66666667 0.40740741 0.42857143 0.28571429]
+
+
+Detailed Classification Report:
+
+               precision    recall  f1-score   support
+
+           A       0.96      0.79      0.87        34
+           C       0.85      0.62      0.72        37
+           E       0.79      0.58      0.67        26
+           G       0.41      0.41      0.41        27
+           O       0.31      0.71      0.43        34
+           Q       0.43      0.21      0.29        42
+
+    accuracy                           0.55       200
+   macro avg       0.62      0.55      0.56       200
+weighted avg       0.62      0.55      0.56       200
